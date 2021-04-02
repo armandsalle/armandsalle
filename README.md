@@ -11,30 +11,25 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 300 120" width="300" height="120" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
-   
+    <div xmlns="http://www.w3.org/1999/xhtml">
 
-     
-  <style>
-    #rect {
-      animation: move 2s;
-    }
-    
-    @keyframes move {
-      from {
-        transform: translateX(0%);
-      }
-      to {
-        transform: translateX(100%);     
-      }
-    }
-  </style>
-     
+      <style>
+        .rect {
+           animation: 3s ease 1s infinite alternate move;
+        }
+        
+        @keyframes move {
+          from {transform: translateX(0%);}
+          to {transform: translateX(100%);}
+        }
+      </style>
 
+      <svg  viewBox="0 0 200 200" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="100" height="100" fill="black" />
+      </svg>
+
+    </div>
   </foreignObject>
-
-  <!-- Simple rect element -->
-  <rect x="0" y="0" width="100" height="100" id="rect" />
-  
 </svg>
